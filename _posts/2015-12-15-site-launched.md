@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Site Launch & post blog testing"
+title: "Site launch & blog post testing"
 date: 2015-12-15
-tag: testing
+tag: testing maths python
 ---
 
 Test post!
