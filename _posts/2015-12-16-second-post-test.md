@@ -10,6 +10,10 @@ tags: testing science
 Hello World: This is still a test ...
 
 ###Markdown
+
+*test*
+
 ##Markdown
+
 #Markdown
 
