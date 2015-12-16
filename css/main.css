@@ -31,9 +31,11 @@ p {
 
 nav {
      float:right;
-    border-bottom: 1px solid #d5d5d5;
 }
 
+header {
+    border-bottom: 1px solid #d5d5d5;
+}
 
 footer {
     border-top: 1px solid #d5d5d5;
