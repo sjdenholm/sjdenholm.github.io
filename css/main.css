@@ -29,8 +29,14 @@ p {
     color: #333;
 }
 
+name {
+    font-size: 28px;
+    line-height: 56px;
+
 nav {
-     float:right;
+    float:right;
+    font-size: 18px;
+    line-height: 56px;
 }
 
 header {
