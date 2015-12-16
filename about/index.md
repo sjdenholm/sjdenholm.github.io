@@ -10,7 +10,6 @@ title: ScottSpace - about
 		<p>some mair words</p>
 		
 </div> /.blurb -->
-{{site.description}}
 
 #All about me
 
