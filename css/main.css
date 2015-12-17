@@ -32,6 +32,11 @@ a.post-link:hover {
     color: #00859B;
 }
 
+a.site-nav {
+    text-decoration: none;
+    color: #68AC2C;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,7 +49,6 @@ p {
 
 nav {
     float:right;
-    color: #999;
 }
 
 /*header {
