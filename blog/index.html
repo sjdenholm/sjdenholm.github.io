@@ -5,8 +5,9 @@ title: Scott's Blog
 <div class="blurb">
         		<h1>Say What?</h1>
 				<p>This is the story ... </p>
+				<p> </p>
     		</div><!-- /.blurb -->
-<h1></h1>
+<h1> </h1>
 <ul class="posts">
   {% for post in site.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -23,7 +24,7 @@ title: Scott's Blog
         <a href="/tags/{{tag}}">{{tag}}</a>
       {% endfor %}
     </li>
-    <h2></h2>
+    <h2> </h2>
   {% endfor %}
 </ul>
 
