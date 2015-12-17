@@ -37,6 +37,10 @@ a.site-nav {
     color: #68AC2C;
 }
 
+a.site-nav:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
