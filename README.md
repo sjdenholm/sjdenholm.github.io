@@ -1,3 +1,3 @@
 # sjdenholm.github.io
 
-Personal website code
+Code and gubbings for my *work-in-progress* personal website code
