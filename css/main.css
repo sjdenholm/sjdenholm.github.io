@@ -12,9 +12,14 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #7c6992;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a.post-link {
@@ -22,9 +27,11 @@ a.post-link {
     color: #68AC2C;
 }
 
-a:hover {
+a.post-link:hover {
     text-decoration: underline;
+    color: #00859B;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
