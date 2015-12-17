@@ -39,7 +39,13 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    font-family: Arial;
+}
+
+p.footer {
+    font-family: Arial
+    font-size: .8em;
+    line-height: 1.4em;
+    color: #999;
 }
 
 /* Blog Posts */
