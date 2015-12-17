@@ -4,7 +4,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Montserrat', Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
