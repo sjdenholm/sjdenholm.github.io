@@ -45,6 +45,8 @@ p.footer {
     font-family: Arial
     line-height: 1.4em;
     color: #999;
+    font-weight: bold;
+    font-size: .2em;
 }
 
 /* Blog Posts */
