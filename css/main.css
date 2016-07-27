@@ -43,12 +43,20 @@ footer {
     /*font-size: .8em;*/
 }
 
-p.footer, p.header {
+p.footer {
     font-family: Arial
     line-height: 1.4em;
     color: #999;
     font-weight: bold;
     font-size: .8em;
+}
+
+p.header {
+    font-family: Arial
+    line-height: 1.4em;
+    color: #7c6992;
+    font-weight: bold;
+    font-size: .5em;
 }
 
 /* Blog Posts */
