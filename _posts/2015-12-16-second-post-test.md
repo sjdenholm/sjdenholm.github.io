@@ -5,15 +5,15 @@ date: 2015-12-16
 tags: testing science
 ---
 
-##Test post 2!
+## Test post 2!
 
 Hello World: This is still a test ...
 
-###Markdown
+### Markdown
 
 *test*
 
-##Markdown
+## Markdown
 
-#Markdown
+# Markdown
 
