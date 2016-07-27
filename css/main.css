@@ -43,7 +43,7 @@ footer {
     /*font-size: .8em;*/
 }
 
-p.footer {
+p.footer, p.header {
     font-family: Arial
     line-height: 1.4em;
     color: #999;
