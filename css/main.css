@@ -1,6 +1,6 @@
 body {
     margin: 10px auto;
-    width: 40%;
+    width: 50%;
     font-size: 12px;
     font-family: 'Arial'
 }
@@ -54,9 +54,9 @@ p.footer {
 p.header {
     font-family: Arial
     line-height: 1.4em;
-    color: #00859B;
+    color: #7c6992;
     /*font-weight: bold;*/
-    font-size: .5em;
+    font-size: .8em;
 }
 
 /* Blog Posts */
