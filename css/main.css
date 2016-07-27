@@ -55,7 +55,7 @@ p.header {
     font-family: Arial
     line-height: 1.4em;
     color: #7c6992;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: .5em;
 }
 
