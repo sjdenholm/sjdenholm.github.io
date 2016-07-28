@@ -50,6 +50,7 @@ p.footer {
     color: #999;
     font-weight: bold;
     font-size: .8em;
+    text-align: center;
 }
 
 p.header {
@@ -58,6 +59,7 @@ p.header {
     color: #7c6992;
     /*font-weight: bold;*/
     font-size: .8em;
+    text-align: center;
 }
 
 /* Blog Posts */
