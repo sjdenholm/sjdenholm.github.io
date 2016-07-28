@@ -3,27 +3,8 @@ layout: defaultSD
 title: ScottDenholm - Publications
 ---
 <div class="blurb">
-        		<h1>Say What?</h1>
-				<p>This is the story ... </p>
+        		<h1>Publication list</h1>
+				<p>T ... </p>
 				<p> </p>
     		</div><!-- /.blurb -->
-<h1> </h1>
-<ul class="posts">
-  {% for post in site.pubs %}
-    {% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
-    {% unless year == this_year %}
-      {% assign year = this_year %}
-      <h3>{{ year }}</h3>
-    {% endunless %}
-    <li>
-      <a class="post-link" href="{{ pub.url | prepend: site.baseurl }}">{{ pub.title }}</a>
-      &nbsp;
-      <span class="post-date">{{ pub.date | date: "%b %-d, %Y" }}</span>
-      in
-      {% for tag in pub.tags %}
-        <a href="/tags/{{tag}}">{{tag}}</a>
-      {% endfor %}
-    </li>
-    <h2> </h2>
-  {% endfor %}
-</ul>
+
