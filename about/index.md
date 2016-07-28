@@ -11,6 +11,6 @@ title: about
 		
 </div> /.blurb -->
 
-#All about me
+# All about me
 
 some mair words
