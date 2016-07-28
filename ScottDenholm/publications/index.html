@@ -18,15 +18,13 @@ category: publication
       <h3>{{ year }}</h3>
     {% endunless %}
     <li>
-      <p>{{ post.authors }}</p>
-      <p>({{ year }})</p>
-      <p>{{ post.title }}</p>
+      {{ post.authors }} ({{ year }}). {{ post.title }}
       &nbsp;
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <!--<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       in
       {% for tag in post.tags %}
         <a href="/tags/{{tag}}">{{tag}}</a>
-      {% endfor %}
+      {% endfor %}-->
     </li>
     <h2> </h2>
     {% endif %}
