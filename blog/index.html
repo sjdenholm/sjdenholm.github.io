@@ -10,7 +10,7 @@ title: Scott's Blog
 <h1> </h1>
 <ul class="posts">
   {% for post in site.posts %}
-  {% if post.categories contains 'blog1' %}
+  {% if post.categories contains 'blog' %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
       {% assign year = this_year %}
