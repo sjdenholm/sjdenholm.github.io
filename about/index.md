@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scottaku - about
+title: about
 ---
 
 <!--<div class="blurb">
