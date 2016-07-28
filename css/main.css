@@ -5,6 +5,13 @@ body {
     font-family: 'Arial'
 }
 
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
 nav ul, footer ul {
     font-family: 'Arial', Helvetica, sans-serif;
     padding: 0px;
