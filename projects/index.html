@@ -18,8 +18,8 @@ category: project
       			<h3>{{ year }}</h3>
     		{% endunless %}
     			<li>
-      				<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      				&nbsp; started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></p>
+      				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      				&nbsp; started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     			</li>
     			<h2> </h2>
     	{% endif %}
