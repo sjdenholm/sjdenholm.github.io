@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postSD
 title: "test res proj"
 date: 2015-08-26
 status: "in progress"
