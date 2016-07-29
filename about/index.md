@@ -10,7 +10,7 @@ Scottaku a work-in-progress created using *"A Guide to Creating and Hosting a Pe
 
 The multi-blog pages feature is possible thanks to the information provided by [ggarron].
 
-Created, developed and maintained by [Scott Denholm].
+Created, developed and maintained by [Scott Denholm]{:target="_blank"}.
 
 
 
