@@ -2,8 +2,8 @@
 layout: post
 title: "Site launch & blog post testing"
 date: 2015-12-15
-category: blogpost
 tags: testing maths python
+category: blogpost
 ---
 
 ## Test post!
