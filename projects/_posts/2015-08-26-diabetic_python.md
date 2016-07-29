@@ -2,7 +2,7 @@
 layout: post
 title: "test project"
 date: 2015-08-26
-category: draft
+category: project
 ---
 
 ## Test project 1!
