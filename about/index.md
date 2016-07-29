@@ -6,9 +6,7 @@ title: about
 
 # about scottaku.com
 
-Scottaku a work-in-progress created using *"A Guide to Creating and Hosting a Personal Website on GitHub"* by [Jonathan McGlone] as a basis.
-
- It is powered by [Jekyll] and hosted  on [GitHub] via [GitHub Pages].
+Scottaku a work-in-progress created using *"A Guide to Creating and Hosting a Personal Website on GitHub"* by [Jonathan McGlone] as a basis. It is powered by [Jekyll] and hosted  on [GitHub] via [GitHub Pages].
 
 
 
