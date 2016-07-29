@@ -19,7 +19,7 @@ category: project
     		{% endunless %}
     			<li>
       				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      				&nbsp; started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>. Status: {{ post.status }}
+      				&nbsp; <p>started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>. Status: {{ post.status }}</p>
     			</li>
     			<h2> </h2>
     	{% endif %}
