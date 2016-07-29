@@ -52,6 +52,7 @@ p {
 
 footer {
     border-top: 1px solid #d5d5d5;
+    min-height: 56px;
     /*font-size: .8em;*/
 }
 
