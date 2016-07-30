@@ -125,3 +125,24 @@ a.site-nav {
 a.site-nav:hover {
     text-decoration: underline;
 }
+
+/* sizes */
+#main-wrap > div { min-height: 450px; }
+
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+}
+
+#content-wrap {
+    float: right;
+    width: 70%;
+}   
