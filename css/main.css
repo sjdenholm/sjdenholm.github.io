@@ -131,17 +131,17 @@ a.site-nav:hover {
 /*#main-wrap > div { min-height: 450px; }*/
 
 /* layout */
-main-wrap {
+#main-wrap {
     /* overflow to handle inner floating block */
     overflow: hidden;
 }
 
-sidebar {
+#sidebar {
     float: left;
     width: 30%;
 }
 
-content-wrap {
+#content-wrap {
     float: right;
     width: 70%;
 }   
