@@ -16,7 +16,7 @@ Today I started my training to get ready for the mud run. Having not done very m
 
 
 ### 26/07/2016
-In addition to the endurance aspect of the run there is also the core strength requiremet! Got back in to body pump at my gym to train the muscles. Pull ups and push ups are now being encourporated into my daily routine :dizzy_face:
+In addition to the endurance aspect of the run there is also the core strength requiremet! Got back in to body pump at my gym to train the muscles. Pull ups and push ups are now being encourporated into my daily routine ~(>_<~)
 
 
 ### 31/07/2016
