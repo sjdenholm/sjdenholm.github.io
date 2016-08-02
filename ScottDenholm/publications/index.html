@@ -14,8 +14,8 @@ category: publication
       			<h3>{{ year }}</h3>
     		{% endunless %}
     			<li>
-      				<p>{{ post.authors }} ({{ year }}). <a class="post-link" href="{{ post.web }}" target="_blank"><b>{{ post.title }}</b></a>. <i>{{ post.journal }}</i>
-      				</p>&nbsp;
+      				{{ post.authors }} ({{ year }}). <a class="post-link" href="{{ post.web }}" target="_blank"><b>{{ post.title }}</b></a>. <i>{{ post.journal }}</i>
+      				&nbsp;
     			</li>
     			<h2> </h2>
     	{% endif %}
