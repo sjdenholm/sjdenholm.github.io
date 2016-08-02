@@ -63,7 +63,7 @@ category: research_project
 </ul>-->
 <ul class="posts">
   	{% for post in site.posts %}
-  		{% if post.categories contains 'project' %}
+  		{% if post.categories contains 'research_project' %}
 			{% if post.status contains 'in progress' %}
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     				{% unless year == this_year %}
@@ -84,7 +84,7 @@ category: research_project
 <h1>Archived </h1>
 <ul class="posts">
   {% for post in site.posts %}
-  	{% if post.categories contains 'project' %}
+  	{% if post.categories contains 'research_project' %}
 		{% if post.status contains 'complete' %}
     			{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     			{% unless year == this_year %}
