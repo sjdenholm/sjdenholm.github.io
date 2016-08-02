@@ -21,7 +21,7 @@ category: research_project
         I also have interests in relationships between immune traits and hard/expensive to record phenotypic traits such as energy
         balance. In summary my interests, have and still, lie in using applied mathematical and statistical methods to better understand
         biological systems with an emphasis on health, disease (and disease dynamics), systems biology, analysis of big data and
-        genetics.</p> -->
+        genetics.</p> 
         
 <h1>Current projects </h1>
 <ul class="posts">
@@ -46,6 +46,45 @@ category: research_project
 <ul class="posts">
   {% for post in site.posts %}
   	{% if post.categories contains 'research_project' %}
+		{% if post.status contains 'complete' %}
+    			{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    			{% unless year == this_year %}
+      				{% assign year = this_year %}
+      				<h3>{{ year }}</h3>
+    			{% endunless %}
+    				<li>
+      					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      					&nbsp; <p>started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>. Status: {{ post.status }}</p>
+    				</li>
+    				<h2> </h2>
+    		{% endif %}
+	{% endif %}
+  {% endfor %}
+</ul>-->
+<ul class="posts">
+  	{% for post in site.posts %}
+  		{% if post.categories contains 'project' %}
+			{% if post.status contains 'in progress' %}
+    				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    				{% unless year == this_year %}
+      					{% assign year = this_year %}
+      					<h3>{{ year }}</h3>
+    				{% endunless %}
+    					<li>
+      						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      						&nbsp; <p>started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>. Status: {{ post.status }}</p>
+    					</li>
+    					<h2> </h2>
+    			{% endif %}
+		{% endif %}
+  	{% endfor %}
+</ul>
+
+
+<h1>Archived </h1>
+<ul class="posts">
+  {% for post in site.posts %}
+  	{% if post.categories contains 'project' %}
 		{% if post.status contains 'complete' %}
     			{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     			{% unless year == this_year %}
