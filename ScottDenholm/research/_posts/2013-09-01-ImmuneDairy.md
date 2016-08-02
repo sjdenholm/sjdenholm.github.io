@@ -1,6 +1,7 @@
 ---
 layout: postSD
 title: "Using systems biology to understand and routinely predict health and welfare traits in dairy cattle"
+funder: "BBSRC"
 date: 2013-09-01
 status: "in progress"
 category: research_project
