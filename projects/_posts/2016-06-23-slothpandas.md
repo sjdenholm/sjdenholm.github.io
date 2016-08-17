@@ -22,5 +22,13 @@ In addition to the endurance aspect of the run there is also the core strength r
 ### 31/07/2016
 Second training run completed. Was aiming to beat last weeks time. Finished the 10km this week in 01:08:02 - a personal best!
 
+### 08/08/2016
+Completed 3 gym classes this week - trying to get back into a gym routine: Monday - Spin (45 min); Tuesday - Body Pump (45 min); Thursday - Boday Pump (60 min)
+
+
+
+### 14/08/2016
+Third training run completed. For this run I trained with a fellow Sloth Panda and we incorporated diferent exercise stations into the run - Need to improve my upper body strength!
+
 [Edinburgh Half Marathon]: http://www.scottaku.com/blog/2016/03/07/emf2016
 [Total Warrior]: http://www.totalwarrior.co.uk/
