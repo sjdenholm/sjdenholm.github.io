@@ -2,9 +2,8 @@
 layout: post
 title: "Diabetic Python"
 date: 2015-08-26
-status: "in progress"
+status: "in progress draft"
 category: draft
-show: false
 ---
 
 # Test project 1!

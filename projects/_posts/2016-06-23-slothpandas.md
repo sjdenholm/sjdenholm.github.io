@@ -2,10 +2,9 @@
 layout: post
 title: "Total Warrior 12k Run - Edinburgh"
 date: 2016-06-23
-status: "in progress"
+status: "in progress show"
 tags: personal-challenge health fitness
 category: project
-show: true
 ---
 
 ## Fuddy Ruckers!
