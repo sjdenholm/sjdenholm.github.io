@@ -5,6 +5,7 @@ date: 2016-06-23
 status: "in progress"
 tags: personal-challenge health fitness
 category: project
+show: true
 ---
 
 ## Fuddy Ruckers!
