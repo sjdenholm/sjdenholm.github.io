@@ -2,7 +2,7 @@
 layout: post
 title: "Three Zero"
 date: 2016-08-26
-tags: news scottaku.com
+tags: news life
 category: draft_blogpost
 ---
 

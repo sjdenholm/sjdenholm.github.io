@@ -141,6 +141,11 @@ a.site-nav:hover {
     width: 30%;
 }
 
+#sidebar-right {
+    float: left;
+    width: 30%;
+}
+
 #content-wrap {
     float: right;
     width: 70%;

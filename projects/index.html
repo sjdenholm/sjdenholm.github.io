@@ -7,7 +7,9 @@ category: project
 			
 <p>Things I'm working on ...</p>
 
-
+<div id="main-wrap">
+	<div id="sidebar-right"><img src="/img/8bitscottwbody.png" alt="Scottie8bit"></div>
+		<div id="content-wrap">
 <ul class="posts">
   	{% for post in site.posts %}
   		{% if post.categories contains 'project' %}
@@ -57,3 +59,5 @@ category: project
 	{% endif %}
   {% endfor %}
 </ul>
+	</div>
+</div>
