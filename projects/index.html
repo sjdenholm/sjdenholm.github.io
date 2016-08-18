@@ -11,7 +11,7 @@ category: project
 	<div id="sidebar-right"><img src="/img/8bitscottwbody.png" alt="Scottie8bit"></div>
 		<div id="content-wrap">
 <ul class="posts">
-  	{% for post in site.posts | limit:1 %}
+  	{% for post in site.posts | limit:2 %}
   		{% if post.categories contains 'project' %}
 			{% if post.status contains 'in progress' %}
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
