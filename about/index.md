@@ -21,5 +21,5 @@ Created, developed and maintained by [Scott Denholm]{:target="_blank"}.
 [Jekyll]: http://jekyllrb.com/
 [GitHub]: http://github.com/sjdenholm/sjdenholm.github.io/
 [GitHub Pages]: http://pages.github.com/
-[ggarron]: https://github.com/ggarron/multi-blog-jekyll/
+[ggarron]: https://www.garron.me/en/blog/multi-blog-site-jekyll.html <!--https://github.com/ggarron/multi-blog-jekyll/-->
 [Scott Denholm]: http://www.scottaku.com/ScottDenholm/
