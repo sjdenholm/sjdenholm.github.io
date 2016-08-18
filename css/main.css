@@ -144,6 +144,7 @@ a.site-nav:hover {
 #sidebar-right {
     float: right;
     width: 30%;
+	border: 1px solid #d5d5d5;
 }
 
 #content-wrap {
