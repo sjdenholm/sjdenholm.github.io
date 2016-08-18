@@ -149,7 +149,8 @@ a.site-nav:hover {
 
 #content-wrap {
     float: right;
-    width: 60%;
+    width: 65%;
+	border: 1px solid #d5d5d5
 }   
 
 #post-wrap {
