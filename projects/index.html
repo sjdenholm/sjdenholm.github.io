@@ -12,7 +12,7 @@ category: project
 		<div id="content-wrap">
 <ul class="posts">
 	{% assign in_progress_posts = site.posts | where: 'status', 'in progress' %}
-  	{% for post in in_progress_posts limit:1 %}
+  	{% for post in in_progress_posts limit: 4 %}
   		{% if post.categories contains 'project' %}
 			{% if post.status contains 'in progress' %}
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
