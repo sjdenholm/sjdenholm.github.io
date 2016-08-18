@@ -3,6 +3,8 @@ layout: default
 title: Projects
 category: project
 ---
+{% assign in_progress_posts = site.posts | where: 'status', 'in progress' %}
+
 <h1>Projects list</h1>
 			
 <p>Things I'm working on ...</p>
@@ -11,7 +13,6 @@ category: project
 	<div id="sidebar-right"><img src="/img/8bitscottwbody.png" alt="Scottie8bit"></div>
 		<div id="content-wrap">
 <ul class="posts">
-	{% assign in_progress_posts = site.posts | where: 'status', 'in progress' %}
   	{% for post in in_progress_posts limit: 2 %}
   		{% if post.categories contains 'project' %}
 			{% if post.status contains 'in progress' %}
