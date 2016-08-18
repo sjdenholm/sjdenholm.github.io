@@ -5,15 +5,13 @@ category: project
 ---
 {% assign in_progress_posts = site.posts | where: 'status', 'in progress' %}
 
-<h1>Projects list</h1>
-			
+<div id="main-wrap">			
 <p>Things I'm working on ...</p>
-<h1>On-going </h1>
-<div id="main-wrap">
 	<div id="sidebar-right"><img src="/img/8bitscottwbody.png" alt="Scottie8bit"></div>
 		<div id="content-wrap">
+		<h1>On-going </h1>
 <ul class="posts">
-  	{% for post in in_progress_posts limit: 3 %}
+  	{% for post in in_progress_posts limit: 2 %}
   		{% if post.categories contains 'project' %}
 			{% if post.status contains 'in progress' %}
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
