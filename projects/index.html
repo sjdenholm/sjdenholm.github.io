@@ -11,9 +11,7 @@ category: project
 		<div id="content-wrap">
 		<h1>On-going </h1>
 <ul class="posts">
-  	{% for post in in_progress_posts limit: 2 %}
-  		{% if post.categories contains 'project' %}
-			{% if post.status contains 'in progress' %}
+  	{% for p in in_progress_posts limit: 2 %}
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     				{% unless year == this_year %}
       					{% assign year = this_year %}
@@ -29,8 +27,6 @@ category: project
 							</p>
     					</li>
     					<h2> </h2>
-    			{% endif %}
-		{% endif %}
   	{% endfor %}
 </ul>
 
