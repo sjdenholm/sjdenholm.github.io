@@ -13,8 +13,9 @@ tags: guitar hacks diy
 
 Now two of best things about this pedalboard are the cost and the customizability (is that a real word?):
 
-### The cost
+### Cost
 The majority of these boards I read about on the information super highway were made in America where the shelf of choice is the IKEA Gorm. Over the pond here in Scotland, however, this shelf is not available but a similar costing alternative is, in the form of the . At only £5 a pop for a two pack you can't complain! 
+
 ###### IKEA actually sell two sizes of these shelves a 3 plank and a 5 plank so if you have a hoard of pedals then the 5 may be a better choice. I chose the 3 plank version.
 
 ### Customizability
