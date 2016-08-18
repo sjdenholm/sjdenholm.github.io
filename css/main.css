@@ -139,25 +139,25 @@ a.site-nav:hover {
 #sidebar {
     float: left;
     width: 30%;
-	border: 1px solid #d5d5d5;
+	border: 1px dashed #d5d5d5;
 }
 
 #sidebar-right {
     float: right;
     width: 30%;
-	border: 1px solid #d5d5d5;
+	border: 1px dashed #d5d5d5;
 }
 
 #content-wrap {
     float: right;
     width: 65%;
-	border: 1px solid #d5d5d5
+	border: 1px dashed #d5d5d5
 }  
 
 #content-wrap-left {
     float: left;
     width: 65%;
-	border: 1px solid #d5d5d5
+	border: 1px dashed #d5d5d5
 } 
 
 #post-wrap {
