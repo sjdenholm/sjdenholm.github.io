@@ -134,7 +134,7 @@ a.site-nav:hover {
 #main-wrap {
     /* overflow to handle inner floating block */
     overflow: hidden;
-	padding: 25px;
+	padding: 25px 0px 25px 0px;
 }
 
 #sidebar {
