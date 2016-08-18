@@ -21,9 +21,9 @@ category: blogpost
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       &nbsp;
       <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      &nbsp;filed under
+      <p>&nbsp;filed under
       {% for tag in post.tags %}
-        <a href="/blog/tags/{{tag}}">{{tag}}</a>
+        <a href="/blog/tags/{{tag}}">{{tag}}</a></p>
       {% endfor %}
     </li>
     <h2> </h2>
