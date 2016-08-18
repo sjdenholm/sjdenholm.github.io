@@ -3,7 +3,7 @@ layout: post
 title: "Diabetic Python"
 date: 2015-08-26
 status: "draft"
-category: project
+category: draft
 ---
 
 # Test project 1!
