@@ -7,7 +7,7 @@ tags: personal-challenge health fitness
 category: project
 ---
 
-## Fuddy Ruckers!
+## Fuddy Muckers!
 
 Following on from my previous 2016 physical challenge [Edinburgh Half Marathon]{:target="_blank"} I decided to join some pals who had signed up for the 2016 [Total Warrior]{:target="_blank"} mud run. This is a 12km assault course which I guess is the same idea of Tough Mudder and similar events... **Enter the SLOTH PANDAS FROM HELL!**
 
