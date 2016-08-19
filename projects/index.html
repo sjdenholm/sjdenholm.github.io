@@ -3,10 +3,13 @@ layout: default
 title: Projects
 category: project
 ---
-{% if post.categories contains 'project' %}
-	{% assign ongoing = site.posts | where: 'status', 'in progress' %}
-	{% assign completed = site.posts | where: 'status', 'complete' %}
-{% endif %}
+{% for post in site.posts %}
+	{% if post.categories contains 'project' %}
+		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
+		{% assign completed = site.posts | where: 'status', 'complete' %}
+	{% endif %}
+{% endfor %}
+
 
 <!--<div id="main-wrap">-->
 <!--<p>Things I'm working on ...</p>-->
