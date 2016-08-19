@@ -4,7 +4,7 @@ title: "Using systems biology to understand and routinely predict health and wel
 funder: "BBSRC"
 date: 2013-09-01
 status: "in progress"
-category: research_project
+category: research
 ---
 
 ## BBSRC Immune Dairy

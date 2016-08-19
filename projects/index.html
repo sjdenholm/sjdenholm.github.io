@@ -4,7 +4,7 @@ title: Projects
 category: project
 ---
 {% for post in site.posts %}
-	{% if post.categories == 'project' %}
+	{% if post.categories contains 'project' %}
 		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
 		{% assign completed = site.posts | where: 'status', 'complete' %}
 	{% endif %}
