@@ -18,7 +18,11 @@ category: project
 		<p>Recent projects</p>
 		<ul>
 			{% for post in completed limit:5 %}
-				<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+				{% if post.categories contains 'project' %}
+					{% if post.status contains 'complete' %}
+						<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+					{% endif %}
+				{% endif %}
 			{% endfor %}
 		</ul>
 	</div>
