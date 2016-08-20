@@ -7,9 +7,7 @@ title: ScottDenholm - Home
 {% endfor %}
 
 {% for post in site.posts %}
-	{% if post.categories contains 'research' %}
-		{% assign res_proj = site.posts | where: 'status', 'in progress' %}
-	{% endif %}
+		{% assign res_proj = site.posts | where: 'status', 'in progress' | where: 'category', 'research'%}
 {% endfor %}
 
 <div id="main-wrap">
@@ -29,9 +27,9 @@ title: ScottDenholm - Home
 		<p>Currently Working On</p>
 			<ul>
 				{% for post in res_proj limit:1 %}
-					
-					{{ post.title }}
-					
+						<li>
+							{{ post.title }}
+						</li>
 				{% endfor %}
 			</ul>
 	</div>
