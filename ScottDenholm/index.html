@@ -11,7 +11,9 @@ title: ScottDenholm - Home
 			<ul>
 				{% for post in site.posts %}
 					{% if post.categories contains 'publication' %}
-						<li>{{ post.title }}</li>
+						<li>
+							<a class="post-link" href="{{ post.web }}" target="_blank">{{ post.title }}</a>
+						</li>
 					{% endif %}	
 				{% endfor %}
 			</ul>
