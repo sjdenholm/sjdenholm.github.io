@@ -5,7 +5,6 @@ title: ScottDenholm - Home
 {% for post in site.posts %}
 	{% if post.categories contains 'project' %}
 		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
-		{% assign completed = site.posts | where: 'status', 'complete' %}
 	{% endif %}
 {% endfor %}
 
@@ -17,10 +16,8 @@ title: ScottDenholm - Home
 		<p>Recently Started Projects</p>
 			<ul>
 				{% for post in ongoing limit:5 %}
-					{% if post.categories contains 'project' %}
-						{% if post.status contains 'in progress' %}
+					{% if post.categories contains 'publication' %}
 							<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-						{% endif %}
 					{% endif %}
 				{% endfor %}
 			</ul>
