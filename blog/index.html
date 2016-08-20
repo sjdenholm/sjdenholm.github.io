@@ -7,22 +7,30 @@ category: blogpost
 		{% assign blogposts = site.posts | where: 'category', 'blogpost' %}
 {% endfor %}
 
-<h1>Say What?</h1>
-<p>This is the story ... </p>
-<p> </p>
-<h1> </h1>
-<ul class="posts">
-  {% for post in blogposts limit:12 %}
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
-     
-      <p>{{ post.date | date: "%b %-d, %Y" }}&nbsp; &ndash; &nbsp; filed under
-      {% for tag in post.tags %}
-        <a href="/blog/tags/{{tag}}">{{tag}}</a>
-      {% endfor %}
-	  </p>
-	{{ post.content }}
-	<p>------------------------------------</p>
+<div id="main-wrap">
+	<div id="sidebar-right">
+	<a href="/projects/archive">The Archives</a>
+	</div>
+	
+	<div id="content-wrap-left">
+		h1>Say What?</h1>
+		<p>This is the story ... </p>
+	</div>
 	<p> </p>
-  {% endfor %}
-</ul>
-
+	<h1> </h1>
+	<ul class="posts">
+		{% for post in blogposts limit:12 %}
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+     
+			<p>
+				{{ post.date | date: "%b %-d, %Y" }}&nbsp; &ndash; &nbsp; filed under
+				{% for tag in post.tags %}
+					<a href="/blog/tags/{{tag}}">{{tag}}</a>
+				{% endfor %}
+			</p>
+			{{ post.content }}
+			<p>------------------------------------</p>
+			<p> </p>
+		{% endfor %}
+	</ul>
+</div>
