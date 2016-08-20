@@ -3,8 +3,8 @@ layout: defaultSD
 title: ScottDenholm - Home
 ---
 {% for post in site.posts %}
-	{% if post.categories contains 'project' %}
-		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
+	{% if post.categories publication 'project' %}
+		{% assign ongoing = site.posts %}
 	{% endif %}
 {% endfor %}
 
