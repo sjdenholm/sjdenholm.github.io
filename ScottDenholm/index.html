@@ -3,7 +3,6 @@ layout: defaultSD
 title: ScottDenholm - Home
 ---
 {% for post in site.posts %}
-	{% if post.categories contains 'publication' %}
 		{% assign res_pub = site.posts | where: 'category', 'publication' %}
 	{% endif %}
 {% endfor %}
@@ -15,9 +14,9 @@ title: ScottDenholm - Home
 		<p>Recently Published Research</p>
 			<ul>
 				{% for post in res_pub %}
-					
+					<li>
 						<a class="post-link" href="{{ post.web }}" target="_blank">{{ post.title }}</a>
-					
+					</li>
 				{% endfor %}
 			</ul>
 		
