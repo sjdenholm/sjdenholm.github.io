@@ -5,14 +5,13 @@ category: project
 ---
 {% for post in site.posts %}
 	{% if post.categories contains 'project' %}
-		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
-		{% assign completed = site.posts | where: 'status', 'complete' %}
+		{% assign ongoing = site.posts | where: 'category', 'project' | where: 'status', 'in progress' %}
+		{% assign completed = site.posts | where: 'category', 'project' | where: 'status', 'complete' %}
 	{% endif %}
 {% endfor %}
 
 
 <div id="main-wrap">
-<!--<p>Things I'm working on ...</p>-->
 	<div id="sidebar-right">
 		<p>sidebar_place_holder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa ligula, varius et diam sagittis, egestas rhoncus urna. Ut quis lacinia lacus, at egestas turpis. Aenean tincidunt lacus magna, at condimentum tortor bibendum eget. Praesent semper purus et venenatis ultricies. In euismod, ante at rutrum commodo, lectus ligula commodo elit, nec vulputate tellus purus et nibh <a href="/projects/archive">The Archive</a>.</p>
 		<p>Recently Completed Projects</p>
@@ -30,8 +29,8 @@ category: project
 		<h1>On-going </h1>
 <ul class="posts">
   	{% for post in ongoing limit: 6 %}
-  		{% if post.categories contains 'project' %}
-			{% if post.status contains 'in progress' %}
+
+
     				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     				{% unless year == this_year %}
       					{% assign year = this_year %}
@@ -47,8 +46,7 @@ category: project
 							</p>
     					</li>
     					<h2> </h2>
-    			{% endif %}
-		{% endif %}
+
   	{% endfor %}
 </ul>
 
