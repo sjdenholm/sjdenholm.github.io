@@ -3,7 +3,7 @@ layout: defaultSD
 title: ScottDenholm - Home
 ---
 {% for post in site.posts %}
-	{% if post.categories contains 'publication' %}
+	{% if post.category == 'publication' %}
 		{% assign res_pub = site.posts %}
 	{% endif %}
 {% endfor %}
