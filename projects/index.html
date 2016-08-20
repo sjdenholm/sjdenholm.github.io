@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Projects
-category: project
 ---
 {% for post in site.posts %}
 		{% assign ongoing = site.posts | where: 'category', 'project' | where: 'status', 'in progress' %}
 		{% assign completed = site.posts | where: 'category', 'project' | where: 'status', 'complete' %}
-	{% endif %}
 {% endfor %}
 
 

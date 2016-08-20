@@ -1,13 +1,10 @@
 ---
 layout: default
 title: Projects Archive
-category: project
 ---
 {% for post in site.posts %}
-	{% if post.categories contains 'project' %}
-		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
-		{% assign completed = site.posts | where: 'status', 'complete' %}
-	{% endif %}
+		{% assign ongoing = site.posts | where: 'category', 'project' | where: 'status', 'in progress' %}
+		{% assign completed = site.posts | where: 'category', 'project' | where: 'status', 'complete' %}
 {% endfor %}
 
 
@@ -18,11 +15,9 @@ category: project
 		<p>Recently Started Projects</p>
 			<ul>
 				{% for post in ongoing limit:5 %}
-					{% if post.categories contains 'project' %}
-						{% if post.status contains 'in progress' %}
+
 							<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-						{% endif %}
-					{% endif %}
+							<p> </p>
 				{% endfor %}
 			</ul>
 	</div>
@@ -30,8 +25,7 @@ category: project
 		<h1>Completed Projects </h1>
 			<ul class="posts">
 				{% for post in completed limit: 6 %}
-					{% if post.categories contains 'project' %}
-						{% if post.status contains 'complete' %}
+
 							{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 							{% unless year == this_year %}
 								{% assign year = this_year %}
@@ -46,8 +40,7 @@ category: project
 							{% endfor %}
 							</p>
 							</li>
-						{% endif %}
-					{% endif %}
+
 				{% endfor %}
 			</ul>
 </div>
