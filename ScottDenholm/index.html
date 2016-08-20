@@ -16,7 +16,7 @@ title: ScottDenholm - Home
 		<p>sidebar_place_holder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa ligula, varius et diam sagittis, egestas rhoncus urna. Ut quis lacinia lacus, at egestas turpis. </p>
 		<p>Recently Published Research</p>
 			<ul>
-				{% for post in res_pub %}
+				{% for post in res_pub limit:1 %}
 					<li>
 						<a class="post-link" href="{{ post.web }}" target="_blank">{{ post.title }}</a>
 					</li>
@@ -27,9 +27,9 @@ title: ScottDenholm - Home
 		<p>Currently Working On</p>
 			<ul>
 				{% for post in res_proj limit:1 %}
-					{% if post.status contains 'in progress' %}
-						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					{% endif %}
+					
+					{{ post.title }}
+					
 				{% endfor %}
 			</ul>
 	</div>
