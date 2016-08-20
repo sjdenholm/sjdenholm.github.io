@@ -24,7 +24,7 @@ title: Projects Archive
 	<div id="content-wrap-left">
 		<h1>Completed Projects </h1>
 			<ul class="posts">
-				{% for post in completed limit: 6 %}
+				{% for post in completed %}
 
 							{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 							{% unless year == this_year %}
