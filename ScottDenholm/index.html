@@ -1,6 +1,7 @@
 ---
 layout: defaultSD
 title: ScottDenholm - Home
+categories: publication
 ---
 
 <h1>Hi there, I'm Scott!</h1>
@@ -14,11 +15,10 @@ title: ScottDenholm - Home
 			<ul>
 				{% for post in site.posts limit:5 %}
 					{% if post.categories contains 'publication' %}
-							<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+							<li><a href="{{ post.web }}" target="_blank">{{ post.title }}</a></li>
 						{% endif %}
 				{% endfor %}
 			</ul>
-	</div>
 	</div>
     	<div id="content-wrap-left">
 		<p>Testing using emacs! </p>

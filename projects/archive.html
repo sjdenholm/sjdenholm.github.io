@@ -19,7 +19,7 @@ category: project
 			<ul>
 				{% for post in ongoing limit:5 %}
 					{% if post.categories contains 'project' %}
-						{% if post.status contains 'completed' %}
+						{% if post.status contains 'in progress' %}
 							<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 						{% endif %}
 					{% endif %}
@@ -31,7 +31,7 @@ category: project
 			<ul class="posts">
 				{% for post in completed limit: 6 %}
 					{% if post.categories contains 'project' %}
-						{% if post.status contains 'in progress' %}
+						{% if post.status contains 'complete' %}
 							{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 							{% unless year == this_year %}
 								{% assign year = this_year %}
