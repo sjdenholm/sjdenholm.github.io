@@ -34,11 +34,11 @@ title: W A S D | Archives
 							<li>
 							<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 							&nbsp; <p>started on <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>. Status: {{ post.status }}</p>
-							<p>filed under
+							<!--<p>filed under
 							{% for tag in post.tags %}
 								<a href="/blog/tags/{{tag}}">{{tag}}</a>
 							{% endfor %}
-							</p>
+							</p>-->
 							</li>
 
 				{% endfor %}
