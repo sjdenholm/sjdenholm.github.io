@@ -2,6 +2,15 @@
 layout: defaultSD
 title: ScottDenholm - Home
 ---
+{% for post in site.posts %}
+	{% if post.categories contains 'publication' %}
+		{% assign res_pub = site.posts %}
+	{% endif %}
+	
+	{% if post.categories contains 'research' %}
+		{% assign completed = site.posts | where: 'status', 'in progress' %}
+	{% endif %}
+{% endfor %}
 
 <div id="main-wrap">
 
