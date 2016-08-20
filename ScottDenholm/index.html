@@ -16,7 +16,7 @@ title: ScottDenholm - Home
 			<ul>
 				{% for post in res_pub %}
 					
-						{{ post.title }}
+						<a class="post-link" href="{{ post.web }}" target="_blank">{{ post.title }}</a>
 					
 				{% endfor %}
 			</ul>
