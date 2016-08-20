@@ -4,7 +4,6 @@ title: Projects
 category: project
 ---
 {% for post in site.posts %}
-	{% if post.categories contains 'project' %}
 		{% assign ongoing = site.posts | where: 'category', 'project' | where: 'status', 'in progress' %}
 		{% assign completed = site.posts | where: 'category', 'project' | where: 'status', 'complete' %}
 	{% endif %}
@@ -17,11 +16,9 @@ category: project
 		<p>Recently Completed Projects</p>
 		<ul>
 			{% for post in completed limit:5 %}
-				{% if post.categories contains 'project' %}
-					{% if post.status contains 'complete' %}
+
 						<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-					{% endif %}
-				{% endif %}
+
 			{% endfor %}
 		</ul>
 	</div>
