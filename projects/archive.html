@@ -5,13 +5,27 @@ category: project
 ---
 {% for post in site.posts %}
 	{% if post.categories contains 'project' %}
+		{% assign ongoing = site.posts | where: 'status', 'in progress' %}
 		{% assign completed = site.posts | where: 'status', 'complete' %}
 	{% endif %}
 {% endfor %}
 
 
-<!--<div id="main-wrap">-->
+<div id="main-wrap">
 
+<div id="sidebar-right">
+		<p>sidebar_place_holder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa ligula, varius et diam sagittis, egestas rhoncus urna. Ut quis lacinia lacus, at egestas turpis. Aenean tincidunt lacus magna, at condimentum tortor bibendum eget. Praesent semper purus et venenatis ultricies. In euismod, ante at rutrum commodo, lectus ligula commodo elit, nec vulputate tellus purus et nibh.</p>
+		<p>Recently Started Projects</p>
+		<ul>
+			{% for post in ongoing limit:5 %}
+				{% if post.categories contains 'project' %}
+					{% if post.status contains 'in progress' %}
+						<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 <div id="content-wrap-left">
 	
 <h1>Completed</h1>
@@ -39,4 +53,4 @@ category: project
   {% endfor %}
 </ul>
 	</div>
-<!--</div>-->
+</div>
