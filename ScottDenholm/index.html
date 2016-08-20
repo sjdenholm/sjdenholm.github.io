@@ -4,7 +4,7 @@ title: ScottDenholm - Home
 ---
 {% for post in site.posts %}
 	{% if post.categories contains 'publication' %}
-		{% assign res_pub = post %}
+		{% assign res_pub = site.posts | where: 'category', 'publication' %}
 	{% endif %}
 {% endfor %}
 
