@@ -19,7 +19,7 @@ category: project
 			<ul>
 				{% for post in ongoing limit:5 %}
 					{% if post.categories contains 'project' %}
-						{% if post.status contains 'in progress' %}
+						{% if post.status contains 'completed' %}
 							<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 						{% endif %}
 					{% endif %}
@@ -27,7 +27,7 @@ category: project
 			</ul>
 	</div>
 	<div id="content-wrap-left">
-		<h1>On-going </h1>
+		<h1>Completed Projects </h1>
 			<ul class="posts">
 				{% for post in completed limit: 6 %}
 					{% if post.categories contains 'project' %}
