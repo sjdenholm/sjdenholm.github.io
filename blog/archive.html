@@ -3,13 +3,16 @@ layout: default
 title: Scott's Blog
 category: blogpost
 ---
+{% for post in site.posts %}
+		{% assign blogposts = site.posts | where: 'category', 'blogpost' %}
+{% endfor %}
+
 <h1>Say What?</h1>
 <p>This is the story ... </p>
 <p> </p>
 <h1> </h1>
 <ul class="posts">
-  {% for post in site.posts %}
-  {% if post.categories contains 'blogpost' %}
+  {% for post in blogposts limit:1 %}
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
      
       <p>{{ post.date | date: "%b %-d, %Y" }}&nbsp; &ndash; &nbsp; filed under
@@ -18,8 +21,8 @@ category: blogpost
       {% endfor %}
 	  </p>
 	{{ post.content }}
-	    <h1> </h1>
-    {% endif %}
+	<p>-----------</p>
+	<p> </p>
   {% endfor %}
 </ul>
 
