@@ -10,7 +10,7 @@ title: ScottDenholm - Home
 		<p>Recently Started Projects</p>
 			<ul>
 				{% for post in site.posts %}
-					{% if post.categories contains 'blogpost' %}
+					{% if post.categories contains 'research' %}
 						<li>{{ post.title }}</li>
 					{% endif %}	
 				{% endfor %}
