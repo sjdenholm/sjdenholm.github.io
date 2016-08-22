@@ -167,9 +167,9 @@ a.site-nav:hover {
 }
 
 #tabs {float:left;
-			width: 705px;
+			width: 100%;
 			margin-left:20px;
-			text-align: right;
+			text-align: left;
 			/*margin-top:-32px;*/
 		}
 		#tablist {
