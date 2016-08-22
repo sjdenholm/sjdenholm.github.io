@@ -161,6 +161,12 @@ a.site-nav:hover {
 	border: 1px dashed #d5d5d5
 } 
 
+#content-wrap-full {
+    float: left;
+    width: 100%;
+	border: 1px dashed #d5d5d5
+} 
+
 #post-wrap {
     float: left;
     width: 100%;
@@ -173,7 +179,7 @@ a.site-nav:hover {
 			/*margin-top:-32px;*/
 		}
 		#tablist {
-			padding: 3px 0;
+			/*padding: 3px 0;*/
 			font: bold 12px Verdana;
 			/*border-bottom: 2px solid #c60000;*/
 		}
