@@ -169,8 +169,8 @@ a.site-nav:hover {
 #tabs {float:left;
 			width: 705px;
 			margin-left:20px;
-			text-align: center;
-			margin-top:-32px;
+			text-align: right;
+			/*margin-top:-32px;*/
 		}
 		#tablist {
 			padding: 3px 0;
@@ -202,7 +202,7 @@ a.site-nav:hover {
 			border-color: #222277;
 		}
 		#tablist li a.current {
-			background: grey;
+			background: white;
 			border: 2px solid #c60000;
 			border-bottom: 2px solid grey;
 		}   
