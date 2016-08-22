@@ -196,7 +196,7 @@ a.site-nav:hover {
 			border-top-right-radius: 10px;
 			-moz-border-radius-topleft: 10px;
 			border-top-left-radius: 10px;
-			border-bottom: 2px solid grey;
+			border-bottom: none;
 			background: white;
 		}
 		#tablist li a:link, #tablist li a:visited {
@@ -210,12 +210,12 @@ a.site-nav:hover {
 		#tablist li a.current {
 			background: white;
 			border: 2px solid grey;
-			border-bottom: none;
+			border-bottom: 4px solid white;
 		} 
 #tabsmain
 {
 	background-color:white;
-	margin-top: 25px;
+	margin-top: 30px;
 	/*margin-left: 20px;
    	margin-right: 200px;*/
    	padding: 10px;
