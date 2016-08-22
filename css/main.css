@@ -164,7 +164,6 @@ a.site-nav:hover {
 #content-wrap-full {
     float: left;
     width: 100%;
-	padding: 10px;
 	border: 1px dashed #d5d5d5
 } 
 
@@ -213,4 +212,11 @@ a.site-nav:hover {
 			border: 2px solid grey;
 			border-bottom: none;
 		} 
-		
+#tabsmain
+{
+	background-color:white;
+	/*margin-left: 20px;
+   	margin-right: 200px;*/
+   	padding: 10px;
+	border:2px dashed #c60000;
+}		
