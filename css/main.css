@@ -169,7 +169,7 @@ a.site-nav:hover {
 #tabs {float:left;
 			width: 100%;
 			margin-left:20px;
-			text-align: left;
+			text-align: right;
 			/*margin-top:-32px;*/
 		}
 		#tablist {
@@ -190,7 +190,7 @@ a.site-nav:hover {
 			border-top-right-radius: 10px;
 			-moz-border-radius-topleft: 10px;
 			border-top-left-radius: 10px;
-			border-bottom: none;
+			border-bottom: 2px solid grey;
 			background: white;
 		}
 		#tablist li a:link, #tablist li a:visited {
@@ -203,6 +203,6 @@ a.site-nav:hover {
 		}
 		#tablist li a.current {
 			background: white;
-			border: 2px solid #c60000;
-			border-bottom: 2px solid grey;
+			border: 2px solid grey;
+			border-bottom: none;
 		}   
