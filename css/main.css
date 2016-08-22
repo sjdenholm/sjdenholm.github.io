@@ -191,7 +191,7 @@ a.site-nav:hover {
 			-moz-border-radius-topleft: 10px;
 			border-top-left-radius: 10px;
 			border-bottom: none;
-			background: #DDDEEE;
+			background: white;
 		}
 		#tablist li a:link, #tablist li a:visited {
 			color: #444488;
