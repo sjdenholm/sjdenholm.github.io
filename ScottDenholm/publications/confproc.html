@@ -15,7 +15,7 @@ category: publication
 	<h1>Conferences</h1>
 	<ul class="posts">
 		{% for post in site.posts %}
-			{% if post.categories contains 'publication' %}
+			{% if post.categories contains 'conference' %}
 				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 				{% unless year == this_year %}
 					{% assign year = this_year %}
