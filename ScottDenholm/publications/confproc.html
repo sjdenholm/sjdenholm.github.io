@@ -11,8 +11,8 @@ category: publication
             <li><a class="current" href="#a">Conferences</a></li>
         </ul>    
 	</div>
-
-	h1>Conferences</h1>
+<div id="content-wrap-left">
+	<h1>Conferences</h1>
 	<ul class="posts">
 		{% for post in site.posts %}
 			{% if post.categories contains 'publication' %}
@@ -29,4 +29,5 @@ category: publication
 			{% endif %}
 		{% endfor %}
 	</ul>
+</div>
 </div>
