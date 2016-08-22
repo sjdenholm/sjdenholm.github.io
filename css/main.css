@@ -177,7 +177,7 @@ a.site-nav:hover {
 			width: 90%;
 			margin-left:20px;
 			text-align: right;
-			margin-top:-32px;
+			/*margin-top:-32px;*/
 		}
 		#tablist {
 			padding: 3px 0;
