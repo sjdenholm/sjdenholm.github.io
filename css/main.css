@@ -164,4 +164,45 @@ a.site-nav:hover {
 #post-wrap {
     float: left;
     width: 100%;
-}   
+}
+
+#tabs {float:left;
+			width: 705px;
+			margin-left:20px;
+			text-align: center;
+			margin-top:-32px;
+		}
+		#tablist {
+			padding: 3px 0;
+			font: bold 12px Verdana;
+			/*border-bottom: 2px solid #c60000;*/
+		}
+		#tablist li {
+			list-style: none;
+			display: inline;
+		}
+		#tablist li a {
+			text-decoration: none;
+			padding: 3px 4px;
+			margin: 0 3px 0 0;
+			border: 2px solid #777788;
+			-moz-border-radius-topright: 10px;
+			border-top-right-radius: 10px;
+			-moz-border-radius-topleft: 10px;
+			border-top-left-radius: 10px;
+			border-bottom: none;
+			background: #DDDEEE;
+		}
+		#tablist li a:link, #tablist li a:visited {
+			color: #444488;
+		}
+		#tablist li a:hover {
+			color: #000000;
+			background: #AAAAEE;
+			border-color: #222277;
+		}
+		#tablist li a.current {
+			background: grey;
+			border: 2px solid #c60000;
+			border-bottom: 2px solid grey;
+		}   
