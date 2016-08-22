@@ -164,6 +164,7 @@ a.site-nav:hover {
 #content-wrap-full {
     float: left;
     width: 100%;
+	padding: 10px
 	border: 1px dashed #d5d5d5
 } 
 
@@ -176,10 +177,10 @@ a.site-nav:hover {
 			width: 90%;
 			margin-left:20px;
 			text-align: right;
-			/*margin-top:-32px;*/
+			margin-top:-32px;
 		}
 		#tablist {
-			/*padding: 3px 0;*/
+			padding: 3px 0;
 			font: bold 12px Verdana;
 			/*border-bottom: 2px solid #c60000;*/
 		}
@@ -189,8 +190,8 @@ a.site-nav:hover {
 		}
 		#tablist li a {
 			text-decoration: none;
-			/*padding: 3px 4px;*/
-			/*margin: 0 3px 0 0;*/
+			padding: 3px 4px;
+			margin: 0 3px 0 0;
 			border: 2px solid #777788;
 			-moz-border-radius-topright: 10px;
 			border-top-right-radius: 10px;
