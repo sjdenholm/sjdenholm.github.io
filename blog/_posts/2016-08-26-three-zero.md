@@ -3,9 +3,9 @@ layout: post
 title: "Three Zero"
 date: 2016-08-26
 tags: news life
-category: draft_blogpost
+category: blogpost
 ---
 
 ## Logan's Run <img align="right" src="/blog/img/loganscott.png">
 
-This is a TEST!
+Today I offically turned 30 years old. I am now an adult and must do "adult" things (*note to self: learn adult things to do*)
