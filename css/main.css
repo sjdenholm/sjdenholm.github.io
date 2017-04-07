@@ -113,6 +113,11 @@ a.post-link:hover {
     color: #999;
 }
 
+a.site-title {
+    font-size: 28px;
+    text-decoration: none;
+    color: #00859B;
+}
 a.site-title:hover {
     text-decoration: none;
 }
