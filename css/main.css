@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #00859B;
 }
 
@@ -101,7 +101,7 @@ a.post-link:hover {
     position: relative;
 }
 
-.site-title {
+a.site-title {
     font-size: 28px;
     font-family:'Arial';
     font-weight: 300;
@@ -111,6 +111,11 @@ a.post-link:hover {
     padding-left: 0px/*5px !important*/;
     padding-right: 5px !important;
     color: #999;
+}
+
+a.site-title:hover {
+    text-decoration: none;
+    color: #00859B;
 }
 
 nav {
