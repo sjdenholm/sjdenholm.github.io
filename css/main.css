@@ -113,6 +113,9 @@ a.post-link:hover {
     color: #999;
 }
 
+a.site-title:hover {
+    text-decoration: none;
+
 nav {
     float:right;
 }
